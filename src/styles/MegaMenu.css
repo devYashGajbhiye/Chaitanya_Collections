@@ -1,0 +1,54 @@
+/* src/components/MegaMenu.css */
+
+.mega-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: #ffffff;
+  border-top: 1px solid #eee;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  z-index: 9999;
+  pointer-events: auto;
+}
+
+.mega-menu-container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 25px 40px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* Adjust as needed */
+  gap: 30px;
+}
+
+.mega-column {
+  min-width: 160px;
+}
+
+.mega-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.mega-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mega-column li {
+  margin-bottom: 6px;
+}
+
+.mega-column a {
+  font-size: 13px;
+  color: #444;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.mega-column a:hover {
+  color: #d4a017; /* Gold accent */
+}
