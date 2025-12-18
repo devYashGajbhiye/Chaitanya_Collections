@@ -1,0 +1,49 @@
+.new-arrivals {
+  width: 100%;
+  padding: 80px 5%;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  letter-spacing: 0.5px;
+}
+
+.arrival-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.arrival-card {
+  cursor: pointer;
+}
+
+.arrival-image {
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+}
+
+.arrival-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+/* subtle luxury hover */
+.arrival-card:hover img {
+  transform: scale(1.05);
+}
+
+.arrival-title {
+  margin-top: 18px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #222;
+  letter-spacing: 0.3px;
+}
