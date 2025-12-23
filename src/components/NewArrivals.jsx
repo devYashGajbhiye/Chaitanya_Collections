@@ -1,21 +1,25 @@
 import React from "react";
 import "../styles/NewArrivals.css";
+import arrival1 from "../assets/images/Arrivals/arrival1.avif";
+import arrival2 from "../assets/images/Arrivals/arrival2.avif";
+import arrival3 from "../assets/images/Arrivals/arrival3.avif"; 
+
 
 const newArrivals = [
   {
     id: 1,
     title: "Essential Cotton Blazer",
-    image: "/images/arrival1.jpg",
+    image: arrival1,
   },
   {
     id: 2,
     title: "Cotton Squareneck Cami",
-    image: "/images/arrival2.jpg",
+    image: arrival2,
   },
   {
     id: 3,
     title: "Organic Linen Maxi Dress",
-    image: "/images/arrival3.jpg",
+    image: arrival3,
   },
 ];
 

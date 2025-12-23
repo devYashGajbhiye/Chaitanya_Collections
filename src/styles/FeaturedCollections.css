@@ -1,0 +1,104 @@
+.featured-collections {
+  padding: 80px 5%;
+  background: #fff;
+}
+
+.featured-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.featured-header h2 {
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #111;
+  position: relative;
+}
+
+.featured-header h2::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background: #c9a24d;
+  display: block;
+  margin: 12px auto 0;
+}
+
+.featured-header p {
+  margin-top: 10px;
+  color: #666;
+  font-size: 15px;
+}
+
+/* GRID */
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* CARD */
+.featured-card {
+  position: relative;
+  height: 420px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.featured-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.9s ease;
+}
+
+.featured-card:hover img {
+  transform: scale(1.08);
+}
+
+/* OVERLAY */
+.featured-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.6),
+    rgba(0,0,0,0.2),
+    transparent
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 40px;
+  color: #fff;
+}
+
+.featured-overlay h3 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.featured-overlay p {
+  font-size: 15px;
+  margin-bottom: 18px;
+  opacity: 0.9;
+}
+
+.featured-overlay button {
+  align-self: flex-start;
+  background: transparent;
+  border: 1px solid #c9a24d;
+  color: #c9a24d;
+  padding: 10px 22px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.featured-overlay button:hover {
+  background: #c9a24d;
+  color: #111;
+}

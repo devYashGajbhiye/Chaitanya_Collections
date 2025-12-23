@@ -1,0 +1,72 @@
+.why-shop {
+  padding: 80px 5%;
+  background: #fafafa;
+}
+
+.why-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.why-header h2 {
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #111;
+  position: relative;
+}
+
+.why-header h2::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background: #c9a24d;
+  display: block;
+  margin: 12px auto 0;
+}
+
+.why-header p {
+  margin-top: 10px;
+  color: #666;
+  font-size: 15px;
+}
+
+/* GRID */
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+/* CARD */
+.why-card {
+  background: #fff;
+  padding: 35px 25px;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 0.35s ease;
+}
+
+.why-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.why-icon {
+  font-size: 36px;
+  color: #c9a24d;
+  margin-bottom: 18px;
+}
+
+.why-card h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #111;
+}
+
+.why-card p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
